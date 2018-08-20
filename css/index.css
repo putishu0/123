@@ -1,0 +1,157 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+
+html{
+    font-size:82.8px;
+}
+body{
+    background: #1e1001;
+}
+a:visited {
+    color:#fce096;
+} 
+a:active button{
+    position: relative;
+    top:10px;
+    box-shadow: none;
+} 
+/*banner部分*/
+header{
+    height:100%;
+}
+header img{
+    width:100%;
+}
+/*开始游戏按钮*/
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    text-align: center;
+    width:5.333rem;
+    height:1.449rem;
+    background: linear-gradient(to right,#ffb904,#ffff8b,#ffb904);
+    border-radius: 1.1rem 1rem 1.1rem 1rem;
+    box-shadow: 0px 10px 2px #fd7714;
+    border:none;
+    color:#8d3c0a;
+    font-style:italic;
+    font-weight: 600;
+    font-size:0.8484rem;
+    outline: none;
+    cursor: pointer;
+}
+/*游戏列表*/
+.game_list{
+    width:8.9rem;
+    height:8.6rem;
+    border:3px solid #a48d49;
+    margin:0 auto;
+    margin-top:0.603rem;
+    border-radius: 0.22rem;
+}
+.game_list h5{
+    height:0.086rem;
+    width:7.97rem;
+    /*border:1px solid yellow;*/
+    margin:0 auto;
+    margin-top:0.72rem;
+    text-align: center;
+    font-size:0.66rem;
+    color: #fce096;
+    background: linear-gradient(to right,#241204,#44321b,#44321b,#241204);
+    line-height: 0;
+}
+h5 span{
+    background: #1e1001
+}
+.game_list ul{
+    width:100%;
+    height:3.50rem;
+    /*border:1px solid green;*/
+    font-size: 0.48rem;
+    font-weight: 600;
+    color:#fce096; 
+}
+.game_list ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first_ul{
+    margin-top:0.72rem;
+    display: flex;
+    justify-content: space-around;
+}
+.game_list ul li{
+    width:2.59rem;
+    /*border:1px solid blue;*/
+}
+.game_list ul li img{
+    width:100%;
+}
+.two_ul{
+    display: flex;
+    justify-content: center;
+}
+.two_ul li{
+    margin-right: 0.301rem
+}
+/*开始游戏按钮*/
+.start_game{
+    height:1.08rem;
+    width:4.34rem;
+    font-size:0.60rem;
+    margin:0.48rem 0;
+}
+/*截图欣赏部分*/
+.screenshot{
+    height:0.086rem;
+    width:8.9rem;
+    /*border:1px solid yellow;*/
+    margin:0 auto;
+    margin-top:0.48rem;
+    text-align: center;
+    font-size:0.72rem;
+    color: #fce096;
+    background: linear-gradient(to right,#241204,#44321b,#44321b,#241204);
+    line-height: 0;
+}
+section{
+    height:7.004rem;
+    width:8.9rem;
+    margin:0 auto;
+}
+.first_section{
+    margin-top:0.84rem;
+}
+section img{
+    width:100%;
+    height:100%;
+}
+/*底部版权*/
+footer{
+    width:100%;
+    height:0.84rem;
+    margin-top:1.32rem;
+    border-top:2px solid #ffe694;
+    background: #080808;
+    font-size:0.36rem;
+    color:#ffffff;
+    text-align: center;
+}
