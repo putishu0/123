@@ -91,7 +91,7 @@ h5 span{
     font-weight: 600;
     color:#fce096; 
 }
-.game_list ul li{
+.game_list ul li a{
     display: flex;
     flex-direction: column;
     align-items: center;
