@@ -101,6 +101,9 @@ h5 span{
     display: flex;
     justify-content: space-around;
 }
+.first_ul span{
+    color:#fce096;
+}
 .game_list ul li{
     width:2.59rem;
     /*border:1px solid blue;*/
