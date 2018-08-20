@@ -20,6 +20,9 @@ html{
 body{
     background: #1e1001;
 }
+a{
+    color:#fce096;
+}
 a:visited {
     color:#fce096;
 } 
