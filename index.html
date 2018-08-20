@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio; //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 10 + "px";
+    </script>
+</head>
+<body>
+    <!--banner部分开始-->
+    <header>
+        <img src="img/banner.jpg" alt="">
+    </header>
+    <!--banner部分结束-->
+    <!--开始游戏按钮-->
+    <p>
+        <a href="http://www.baidu.com">
+            <button class="start"> 开始游戏</button>
+        </a>
+    </p>
+    <!--游戏列表开始-->
+    <div class="game_list">
+        <h5><span>游戏列表</a></span></h5>
+        
+        <ul class="first_ul">
+            <!--游戏列表第一个-->
+            <a href="http://hlddz.huanle.qq.com/">
+                <li><img src="img/list_1.png" alt="">斗地主</li>
+            </a>
+            <!--游戏列表第二个-->
+            <a href="https://www.jpqp888.com/game/1543.html">
+                <li><img src="img/list_2.png" alt="">三张</li>
+            </a>
+            <!--游戏列表第三个-->
+            <a href="http://hlddz.huanle.qq.com/">
+                <li><img src="img/list_3.png" alt="">斗牛</li>
+            </a>
+        </ul>
+        <ul class="two_ul">
+            <!--游戏列表第四个-->
+            <a href="http://www.91y.com/">
+                <li><img src="img/list_4.png" alt="">街机捕鱼</li>
+            </a>
+            <!--游戏列表第五个-->
+            <a href="http://hlddz.huanle.qq.com/">
+                <li><img src="img/list_5.png" alt="">二人牛牛</li>
+            </a>
+        </ul>
+    </div>
+    <!--游戏列表结束-->
+    <!--开始游戏按钮-->
+    <p><button class="start_game">马上开玩</button></p>
+    <!--截图欣赏部分开始-->
+    <h5 class="screenshot"><span>截图欣赏</span></h5>
+    <!--图片-->
+    <section class="first_section">
+        <img src="img/screenshot_1.png" alt="">
+    </section>
+    <!--下载按钮-->
+    <p><a href="#"><button class="start_game">点击下载</button></a></p>
+    <!--图片-->
+    <section>
+        <img src="img/screenshot_2.png" alt="">
+    </section>
+    <!--下载按钮-->
+    <p><button class="start_game">点击下载</button></p>
+    <!--图片-->
+    <section>
+        <img src="img/screenshot_3.png" alt="">
+    </section>
+    <!--下载按钮-->
+    <p><button class="start_game">点击下载</button></p>
+    <!--截图欣赏部分结束-->
+    <!--底部版权-->
+    <footer>
+        版权：深圳存真海洋游戏有限公司
+    </footer>
+    <script>
+        $('.start_game').click(function(){
+            alert("更多游戏等你来玩")
+        })
+    </script>
+</body>
+</html>
